@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container{
+  width: 100vw;
+}
+
+.homepage{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(113, 177, 240);
+  gap: 10;
+}
+
+.page2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color:orange;
+}
+.page3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color:pink;
+}
+
+.box{
+  width: 120px;
+  height: 150px;
+  background-color: crimson;
+}
